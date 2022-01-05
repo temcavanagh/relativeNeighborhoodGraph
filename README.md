@@ -1,6 +1,6 @@
 # Relative Neighborhood Graph
 
-Compute the Relative Neighborhood Graph from a NumPy distance matrix. 
+Compute the Relative Neighborhood Graph from a NumPy distance matrix input. 
 
 ## Instructions
 
@@ -10,7 +10,7 @@ Compute the Relative Neighborhood Graph from a NumPy distance matrix.
 pip install relativeNeighborhoodGraph
 ```
 
-2. Compute the Relative Neighborhood Graph from a NumPy distance matrix.
+2. Compute the Relative Neighborhood Graph from a NumPy distance matrix input.
 
 ```python
 from relativeNeighborhoodGraph import returnRNG
@@ -18,4 +18,6 @@ from relativeNeighborhoodGraph import returnRNG
 RNG = returnRNG.returnRNG(distance_matrix)
 ```
 
-3. The resulting Relative Neighborhood Graph is returned as a Pandas DataFrame.
+3. The resulting Relative Neighborhood Graph is returned as a Pandas DataFrame which may be used for visualisation. For example:
+
+![Example Graph](https://user-images.githubusercontent.com/50828923/148155321-71740f52-26cc-4da2-9314-5e6afea6e32e.png)
