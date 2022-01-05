@@ -2,6 +2,8 @@
 
 Compute the Relative Neighborhood Graph from a NumPy distance matrix input. 
 
+[https://pypi.org/project/relativeNeighborhoodGraph/] (https://pypi.org/project/relativeNeighborhoodGraph/)
+
 ## Instructions
 
 1. Install:
